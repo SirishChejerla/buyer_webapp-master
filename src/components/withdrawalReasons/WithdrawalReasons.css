@@ -1,0 +1,12 @@
+.withdrawalReasons {
+  margin: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.shuffledReasons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0.5rem 0;
+}

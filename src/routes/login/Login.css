@@ -1,0 +1,111 @@
+.loginContent{
+  display: flex;
+  background-color: var(--gunmetel-color);
+}   
+
+.contentWrapper{
+  display: flex;
+  justify-content: center;
+  margin-top: 25vh;
+  background-color: var(--gunmetel-color);
+  width: 100vh; 
+}
+.cardWrapper { 
+  border-top-left-radius: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vh; 
+  background-color: var(--white-color);
+}
+
+.card {
+  padding: 2rem;
+  /* border: 0.8px solid #868989; */
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+  background-color: var(--white-color);;
+  
+}
+
+.welcomeText {
+  margin: 1.5rem 0 1rem 0;  
+  color: var(--gray-subtitle-color);
+}
+
+.buttonsWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 0 1.5rem 0;
+}
+
+.registerButton {
+  margin-right: 1rem;
+}
+
+.input {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.errorMessage {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+  padding-left: 0.2rem;
+}
+
+@media (max-width: 767.98px) {
+  .inputs {
+    min-height: 20vh;
+    min-width: 70vw;
+  }
+  .card{
+    border: 0.8px solid #868989;
+  }
+  .contentWrapper{
+    display: none;
+  }
+  .cardWrapper { 
+    border-top-left-radius: 0rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1439.98px) {
+  .inputs {
+    min-height: 130px;
+    min-width: 260px;
+  }  
+  
+  .contentWrapper{
+    min-height: 130px;
+    min-width: 260px;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 2559.98px) {
+  .inputs {
+    min-height: 160px;
+    min-width: 330px;
+  }    
+  .contentWrapper{
+    min-height: 160px;
+    min-width: 330px;
+  }
+
+}
+
+@media (min-width: 2560px) {
+  .inputs {
+    min-height: 190px;
+    min-width: 420px;
+  }  
+  .contentWrapper{
+    min-height: 160px;
+    min-width: 330px;
+  }
+}

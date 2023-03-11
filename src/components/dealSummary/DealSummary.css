@@ -1,0 +1,45 @@
+.dealSummary {
+  margin: 0.3rem 1.5rem;
+}
+
+.summaryHeader {
+  display: flex;
+  flex-direction: row;
+  padding: 0 1rem 0.3rem 0;
+}
+
+.textHeader {
+  text-decoration: none;
+}
+
+.summaryAttr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0.2rem;
+}
+
+
+.summaryList {
+  margin: 0.3rem 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+ion-icons {
+  font-size: 0.8rem;
+  color: #6c6b6b;
+}
+
+.backButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backButton:hover {
+  border-color: white;
+}

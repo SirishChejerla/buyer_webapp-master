@@ -1,0 +1,12 @@
+.attrWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.touchable:hover {
+  border: 1px solid transparent !important;
+  text-decoration: underline;
+  text-decoration-color: #90dba5;
+  text-decoration-thickness: 0.2rem;
+}

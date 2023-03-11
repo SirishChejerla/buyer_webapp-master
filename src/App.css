@@ -1,0 +1,96 @@
+@import url(antd/dist/antd.css);
+
+/* @font-face { */
+/* font-family: 'Kohino'; */
+/* src: url('/src/assets/fonts/KohinoorBangla-Medium.otf') format('otf'); */
+/* } */
+
+.app {
+  /* font-family:  'Lucidia Grande', 'Roboto', sans-serif; */
+}
+
+:root {
+
+
+  --promo-bg-color:#FFF6CD;
+  --main-bg-color: #fff;
+  --sidebar-bg-color: #1c2534;
+  --navbar-bg-color: #fff;
+
+
+  --green-primary-color: #43cea2;
+  --green-primary-bg-color: #EEFBFF;
+  --green-primary-hvr-color: #cedce0;
+
+  --green-secondary-color: #5CBE7D;
+  --green-secondary-bg-color: #ebffff;
+  --green-secondary-hvr-color: #FAF8FF;
+
+  --button-bg-color: #2153CC;
+  --button-bg-hover-color: #10307e; 
+  
+  --button-border-color: #008BE9;
+  --button-border-hover-color: #008BE9;
+
+  --disabled-button-bg-color:#CDD7FF;
+  --red-text-color: #d62650;
+
+  --deal-border-color:#a0a3a8;
+
+  --deal-attributes-color:#1c2534;
+  --deal-attributes-INR-color:#5CBE7D;
+
+  /* overview */
+  --default-text-color:#141414;
+  --default-footer-attribute-color:#6c6b6b;
+  /* portfolio */
+  --deal-portfolio-attributes-color:#1c2534;  
+  --deal-portfolio-attributes-INR-color:#5CBE7D;
+
+  /* codes -- dynamic color --  */
+  --secondary-code-color:#D9EDDF;
+  --primary-code-color:#D6E6B7;
+  
+  /* --main-bg-color: #EFB6D4; */
+  /* --sidebar-bg-color:  #25252c; */
+  /* --sidebar-bg-color: #001628; */
+  /* --sidebar-bg-color: #1c2534; */
+  
+  
+  /* --navbar-bg-color: #f5f5f7; */ 
+  /* --promo-bg-color: #e3e3e8;
+  --green-primary-color: #43cea2;
+  --green-primary-bg-color: #EEFBFF;
+  --green-primary-hvr-color: #cedce0;
+  --green-secondary-color: #5CBE7D;
+  --green-secondary-bg-color: #fff;
+  --green-secondary-hvr-color: #FAF8FF; */
+  /* --button-bg-color: #1a73e8; 
+  --button-bg-hover-color: #1365d1;
+  --button-border-color: #4786e9;
+  --red-text-color: #d62650;
+  */
+
+  /* --button-bg-color: #0098F7;
+  --button-bg-hover-color: #0382d1;
+  --disabled-button-bg-color:#E8F3F1;
+  --button-border-color: #008BE9;
+  --button-border-hover-color: #008BE9;
+  --red-text-color: #d62650; */
+
+  /* sirish-changes */    
+  /* Primary color is TradeCred Logo Color #43cea2 */
+
+  --navbar-button-hover-color: #2f405e;
+  --navbar-selected-button-text-color: #4786e9;
+
+  --mint-color:#43cea2;
+  --gunmetel-color:#1c2534;  
+  --anti-flash-white-color:#f4f4f6;
+  --eerie-black-color:#1b1c1f;
+  --white-color:#ffffff;
+  --darkerGreen-color:#397F7E;
+
+
+  --scale-card: scale(1);
+}

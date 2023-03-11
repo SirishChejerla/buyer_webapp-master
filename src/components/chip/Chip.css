@@ -1,0 +1,15 @@
+.chip {
+  padding: 0.3rem 0.8rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.5rem;
+  margin-right: 1rem;
+  background: 0;
+  border: 1px solid #dad9d9;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+
+.selected {
+  composes: chip;
+  background-color: #90dba5;
+}

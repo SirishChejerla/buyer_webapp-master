@@ -1,0 +1,78 @@
+.dealCard {
+  min-width: 37vw;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  margin: 1.5rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.dealCard:hover {
+  transform: var(--scale-card);
+}
+
+.debt {
+  border: 1px solid var(--deal-border-color);
+  box-shadow: 0px 10px 15px -3px #99B0A8, 0px 4px 6px -2px rgba(0, 0, 0, 0.05);
+  background-color: var(--green-secondary-bg-color);
+}
+
+.debt:hover {
+  background-color: var(--green-secondary-hvr-color);
+  box-shadow: 0px 10px 15px -3px #99B0A8, 0px 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.std {
+  border: 1px solid var(--green-primary-color);
+  background-color: var(--green-primary-bg-color);
+}
+
+.std:hover {
+  background-color: var(--green-primary-hvr-color);
+  box-shadow: 0px 10px 15px -3px rgba(144, 219, 165, 0.3), 0px 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.dealCardContent {
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.logoWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0.1rem 0.5rem 0 0.5rem;
+}
+
+.dealLogo {
+  flex: 1.5;
+  margin-top: -0.8rem;
+  object-fit: contain;
+  width: 5rem;
+  height: 3.5rem;
+}
+
+.progressBar {
+  padding: 0 1.5rem;
+}
+
+.progressText {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 550px) {
+  .dealCard {
+    height: 270px;
+  }
+}
+
+@media (min-width: 1801px) {
+  .dealCard {
+    height: 420px;
+  }
+}

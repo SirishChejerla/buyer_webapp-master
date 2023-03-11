@@ -1,0 +1,27 @@
+.portfolioTabs {
+  padding: 1rem 1.5rem;
+}
+
+.portfolioCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.orders {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 'order order';
+}
+
+.order {
+  grid-area: order;
+}
+
+@media only screen and (max-width: 550px) {
+  .orders {
+    grid-template-columns: 1fr;
+    grid-template-areas: 'order';
+  }
+}

@@ -1,0 +1,43 @@
+.navButton {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.navButton:hover {
+  /* background-color: #edf3fd; */
+  /* background-color: hsla(240, 9%, 59%, 0.1); */
+  background-color: var(--navbar-button-hover-color);
+}
+
+.selectedbtn {
+  /* background-color: #edf3fd; */
+  background-color:var(--navbar-button-hover-color);
+}
+
+.navText {
+  padding-left: 0.3rem;
+}
+
+@media only screen and (max-width: 550px) {
+  .layout {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr auto 0.8fr;
+    grid-template-areas:
+      'nav'
+      'main'
+      'sidebarSmall';
+  }
+  .navText {
+    display: none;
+  }
+
+  .sidebarWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+}

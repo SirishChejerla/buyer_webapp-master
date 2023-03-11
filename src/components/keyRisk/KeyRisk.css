@@ -1,0 +1,23 @@
+.keyRisk {
+  display: flex;
+  flex-direction: column;
+}
+
+.bodyText {
+  padding-bottom: 0.8rem;
+}
+
+.point {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-bottom: 0.2rem;
+}
+
+.dot {
+  border: 2.5px solid #202124;
+  height: 2.5px;
+  border-radius: 1rem;
+  margin-top: 0.6rem;
+  margin-right: 0.6rem;
+}

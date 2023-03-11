@@ -1,0 +1,11 @@
+.tableTextView {
+  border: 0.3px solid #e0e0e0;
+  padding: 0.85rem 0.35rem;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.nomineeTable {
+  table-layout: fixed;
+  width: 100%;
+}

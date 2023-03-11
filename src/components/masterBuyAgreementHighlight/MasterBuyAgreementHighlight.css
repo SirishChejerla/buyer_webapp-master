@@ -1,0 +1,10 @@
+.mba {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid #ffbb96;
+  border-radius: 0.3rem;
+  background-color: #fff2e8;
+  padding: 0.3rem 0.5rem;
+  margin: 1rem 0;
+}

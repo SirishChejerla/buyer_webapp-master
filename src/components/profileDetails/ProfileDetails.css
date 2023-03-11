@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerTitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.profileContainer {
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.profileCard {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #e1e1e1;
+  padding-left: 3rem;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.profileTitles {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.profileTitle {
+  padding-left: 1rem;
+}
+
+.profileTitleBtn {
+  width: 100%;
+  align-items: flex-start;
+  text-align: left;
+  border-radius: 0.5rem;
+  padding: 1.5rem 0;
+}
+
+.profileDivider {
+  height: 1px;
+  border-top: 1px solid #e1e1e1;
+}
+
+.profileTitleBtn:hover {
+  background-color: #edf3fd;
+  text-decoration-color: blue;
+}
+
+.profileDetails {
+  width: 75%;
+}
+
+.referralDropDowns {
+  display: flex;
+  gap: 0.5rem;
+}

@@ -1,0 +1,26 @@
+.outer {
+  position: relative;
+  width: 55%;
+  padding: 0.5rem;  
+  border-radius: 0.9rem;
+  /* border: 8px solid ; */
+  background-color: var(--main-bg-color); 
+  margin: -1.4rem 0 0 2rem;
+}
+
+.button {  
+  border: 1px solid var(--deal-border-color);
+  border-radius: 0.4rem;
+  width: 100%;
+
+}
+
+.debt {
+  background-color: var(--secondary-code-color);
+  
+}
+
+.std {
+  background-color: var(--primary-code-color);
+  /* background-color: red; */
+}

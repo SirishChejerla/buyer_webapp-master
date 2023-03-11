@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 2rem;
+}
+
+.cos {
+  margin: 0.5rem;
+}
+
+.cancelBtnText {
+  color: #d62650;
+}

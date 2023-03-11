@@ -1,0 +1,28 @@
+.faq {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
+.titleText {
+  margin: 1rem 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.backButton {
+  margin-right: 0.5rem;
+}
+
+.headerText {
+  display: flex;
+}
+
+.queryClusters {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}

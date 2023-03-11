@@ -1,0 +1,37 @@
+.overviewItem {
+  composes: border from '../../routes/overview/Overview.css';
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  height: 9rem;
+  width: 12rem;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+.overviewItem:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transform: var(--scale-card);
+}
+
+.topRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.label {
+  margin-right: 0.5rem;
+}
+
+.icon {
+  height: 2.7rem;
+  width: 2.7rem;
+  align-self: center;
+  border: 1px solid #dad9d9;
+  border-radius: 20rem;
+  padding: 0.5rem;
+}

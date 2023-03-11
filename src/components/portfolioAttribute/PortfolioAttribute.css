@@ -1,0 +1,21 @@
+.portfolioAttr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.7rem 1rem;
+}
+
+.attrTitle {
+  text-align: center;
+  padding-bottom: 0.4rem;
+}
+
+.attrVal {
+  text-align: center;
+}
+
+.netIRR {
+  composes: attrVal;
+  font-weight: bold;
+}
