@@ -1,3 +1,0 @@
-.editAttributes {
-  composes: editAttributes from '../changeBankAccount/ChangeBankAccount.css';
-}
